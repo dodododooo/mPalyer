@@ -12,9 +12,9 @@ Object:
     listHeight : 210,   //歌曲列表最大高度，决定滚动条的显示隐藏
 	loop : false,    //是否循环播放
 	autoplay : false,    //页面加载完成后是否自动播放
-	listPlay : true,    //列表添加完成后是都自动播放
+	listPlay : true,    //列表添加完成后是否自动播放
 	isDelete : false,    //歌曲链接错误时是否移出列表
-	songUrl : "./php/musicPlay.php",    //歌曲请求地址(接受歌曲URL)
+	songUrl : "./php/musicPlay.php",    //歌曲请求地址(接受歌曲URL 和 JSON格式歌词  {"songUrl":"http:292414c7.mp3","lrc":{"0":" 作曲 : 李志","57530":"去看你去爱你在悄悄离去"}})
 	listUrl : "./list.php",    //列表请求地址(接受列表JSON数据  {"songList":[{"songId":19,"songTitle":"Who Are You","artist":"Scarlett Johansson","songImg":"http://83660.jpg"},{"songId":406,"songTitle":"牛仔很忙","artist":"周杰伦","songImg":"http://7181.jpg"},{"songId":40,"songTitle":"热河","artist":"李志","songImg":"http://032786.jpg"}]}  )
 	showMsg : function(msg){
             //弹出框提示信息函数
