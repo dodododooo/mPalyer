@@ -8,7 +8,7 @@ window.IDBKeyRange = window.IDBKeyRange || window.webkitIDBKeyRange || window.ms
 ;(function(win,doc,$){
 	'use strict';
 	if(!window.indexedDB){
-		alert("什么年代了啊啊啊，还不升级浏览器！");
+		alert("什么年代了，还不升级浏览器！");
 		window.open("http://www.google.cn/intl/zh-CN/chrome/browser/desktop/index.html");
 		return false;
 	}
